@@ -1,0 +1,25 @@
+{
+  "name": "streambay",
+  "version": "1.0.0",
+  "description": "Application to watch films, series and cartoons",
+  "main": "index.js",
+  "repository": "git@github.com:SrVieira/streambay.git",
+  "author": "SrVieira <matheusvieirasto@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "@types/react": "^18.0.38",
+    "typescript": "^5.0.4"
+  }
+}
