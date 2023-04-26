@@ -25,6 +25,9 @@
       "@pages/*": [
         "pages/*"
       ],
+      "@interfaces/*": [
+        "interfaces/*"
+      ],
     }
   },
   "include": [
