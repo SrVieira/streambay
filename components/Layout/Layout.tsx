@@ -7,7 +7,7 @@ import { Slider } from '@components/Slider';
 
 const Layout = ({ children }): JSX.Element => {
     return (
-        <div >
+        <div>
             <Slider>
                 <Header />
             </Slider>

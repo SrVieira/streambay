@@ -28,6 +28,12 @@
       "@interfaces/*": [
         "interfaces/*"
       ],
+      "@constants/*": [
+        "constants/*"
+      ],
+      "@styles/*": [
+        "styles/*"
+      ],
     }
   },
   "include": [
