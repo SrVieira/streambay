@@ -10,7 +10,12 @@ import { Container, Row, Col } from '@components/Grid';
 const Layout = ({ children }): JSX.Element => {
     const { pathname } = useRouter();
     const currentSlide = {
-        background: "background.png"
+        background: "background.png",
+        logo: "znation.png",
+        releaseYear: "2022",
+        parentalRating: 18,
+        seasons: 5,
+        description: "Three years after a virus decimated the vast majority of America's population, turning them into flesh-eating zombies, a brave group tries to transport a survivor to the last working virology lab."
     };
 
     return (
