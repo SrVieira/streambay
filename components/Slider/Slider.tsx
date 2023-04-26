@@ -1,11 +1,14 @@
 import React from 'react';
 
-const Slider = ({ children }): JSX.Element => {
+// STYLES
+import { SliderContainer } from './styles';
+
+const Slider = ({ children, currentSlide }): JSX.Element => {
     return (
-        <div>
+        <SliderContainer backgroundSlide={currentSlide.background}>
             {children}
             slider
-        </div>
+        </SliderContainer>
     );
 };
 
