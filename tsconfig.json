@@ -25,6 +25,15 @@
       "@pages/*": [
         "pages/*"
       ],
+      "@interfaces/*": [
+        "interfaces/*"
+      ],
+      "@constants/*": [
+        "constants/*"
+      ],
+      "@styles/*": [
+        "styles/*"
+      ],
     }
   },
   "include": [
