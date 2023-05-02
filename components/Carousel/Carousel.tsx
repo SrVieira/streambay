@@ -20,7 +20,7 @@ const Carousel = ({ id, name, slug, items }: ICarousel) => {
                 <Swiper slidesPerView={4} spaceBetween={20} modules={[Pagination]} centeredSlides={false} className="mySwiper" grabCursor pagination>
                     {items.map((item: ICarouselItem, idx: number) => (
                         <SwiperSlide key={`carousel-${idx}`}>
-                            <CarouselItem>{item.title}</CarouselItem>  
+                            <CarouselItem bgItem={item.cover}>{item.title}</CarouselItem>  
                         </SwiperSlide>
                     ))}
                 </Swiper>

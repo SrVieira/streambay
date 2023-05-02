@@ -6,6 +6,7 @@ export interface ICarouselItem {
     type: 'serie' | 'movie';
     seasons: number;
     episodes: number;
+    cover: string;
 };
 
 export interface ICarousel {

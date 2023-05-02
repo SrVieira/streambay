@@ -8,11 +8,11 @@ export const CarouselTitle = styled.h3`
     margin-bottom: 23px;
 `;
 
-export const CarouselItem = styled.div`
-    width: 328px;
+export const CarouselItem = styled.div<{ bgItem: string }>`
     height: 210px;
     max-width: 100%;
-    background: #fff;
+    background: url(${(props) => props.bgItem});
+    background-size: cover;
     border-radius: 20px;
 `;
 
