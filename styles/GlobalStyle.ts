@@ -10,5 +10,6 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 100%;
         font-family: 'Rubik', sans-serif;
         line-height: 1.5em;
+        background: #0E0E0E;
     }
 `;
