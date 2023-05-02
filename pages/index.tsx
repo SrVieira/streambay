@@ -2,14 +2,26 @@ import * as React from 'react';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 
+// COMPONENTS
+import { Carousel } from '@components/Carousel';
+
+// MOCKS
+import indexMock from '@mocks/index.mock.json';
+
+// STYLES
+import { CarouselWrapper } from '@styles/index';
+
 const IndexPage: NextPage = () => {
     return (
-        <div >
+        <>
             <Head>
-                <title>StreamBay - Open Source Project</title>
+                <title>StreamBay - Open Source Project | Home</title>
                 <meta name="description" content="Open Source Project" />
             </Head>
-        </div>
+            <CarouselWrapper first>
+                <Carousel />
+            </CarouselWrapper>
+        </>
     );
 };
 

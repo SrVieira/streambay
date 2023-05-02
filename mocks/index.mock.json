@@ -1,0 +1,104 @@
+{
+    "categories": [
+        {
+            "id": 0,
+            "name": "What's New at StreamBay",
+            "slug": "/news",
+            "items": [
+                {
+                    "id": 0,
+                    "title": "Flash",
+                    "titleId": "0001",
+                    "parentalRating": 12,
+                    "type": "serie",
+                    "seasons": 9,
+                    "episodes": 151
+                },
+                {
+                    "id": 1,
+                    "title": "Welcome to Eden",
+                    "titleId": "0002",
+                    "parentalRating": 16,
+                    "type": "serie",
+                    "seasons": 2,
+                    "episodes": 16
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Continue Watching",
+            "slug": "",
+            "items": [
+                {
+                    "id": 0,
+                    "title": "Flash",
+                    "titleId": "0001",
+                    "parentalRating": 12,
+                    "type": "serie",
+                    "seasons": 9,
+                    "episodes": 151
+                },
+                {
+                    "id": 1,
+                    "title": "Welcome to Eden",
+                    "titleId": "0002",
+                    "parentalRating": 16,
+                    "type": "serie",
+                    "seasons": 2,
+                    "episodes": 16
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Popular",
+            "slug": "/news",
+            "items": [
+                {
+                    "id": 0,
+                    "title": "Flash",
+                    "titleId": "0001",
+                    "parentalRating": 12,
+                    "type": "serie",
+                    "seasons": 9,
+                    "episodes": 151
+                },
+                {
+                    "id": 1,
+                    "title": "Welcome to Eden",
+                    "titleId": "0002",
+                    "parentalRating": 16,
+                    "type": "serie",
+                    "seasons": 2,
+                    "episodes": 16
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Kids",
+            "slug": "/kids",
+            "items": [
+                {
+                    "id": 0,
+                    "title": "Flash",
+                    "titleId": "0001",
+                    "parentalRating": 12,
+                    "type": "serie",
+                    "seasons": 9,
+                    "episodes": 151
+                },
+                {
+                    "id": 1,
+                    "title": "Welcome to Eden",
+                    "titleId": "0002",
+                    "parentalRating": 16,
+                    "type": "serie",
+                    "seasons": 2,
+                    "episodes": 16
+                }
+            ]
+        }
+    ]
+}
